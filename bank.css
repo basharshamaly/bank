@@ -1,0 +1,103 @@
+body {
+  background-color: #f2f5f7;
+}
+span {
+  color: red;
+  margin-right: 7px;
+}
+.root {
+  --fontFamily: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Helvetica", "Arial", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+::selection {
+  color: white;
+  background: red;
+}
+.imgetop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 25%;
+}
+.fom {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 80px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h2 {
+  text-align: center;
+  --fontWeight: 700;
+  --fontSize: 35px;
+  --lineHeight: 1.5;
+  font-family: var(--fontFamily);
+  font-weight: var(--fontWeight);
+  font-style: var(--fontStyle, inherit);
+  letter-spacing: var(--letterSpacing);
+  text-transform: var(--textTransform);
+  border: none;
+  text-decoration: var(--textDecoration);
+  font-weight: bold;
+}
+h3 {
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+  border-top: solid -2px rgba(0, 0, 0, 0.075);
+  border-bottom: none;
+}
+form {
+  text-align: right;
+}
+.fom1 {
+  margin-right: 20px;
+}
+input[type="text"]:focus {
+  border: 1px solid red;
+  outline: none;
+}
+input[type="number"]:focus {
+  border: 1px solid red;
+  outline: none;
+}
+input[type="password"]:focus {
+  border: 1px solid red;
+  outline: none;
+}
+#rd {
+  margin-top: 8px;
+}
+.send {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 12px 26px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.send:hover {
+  opacity: 1;
+}
